@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Songiso</title>
+
+  </head>
+  <body class="dark" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://songiso.github.io" class="link" target="_blank">SC.</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I'm <span class="about__name">SONGISO COOPER.</span></h1>
+        <h2 class="about__role">Data Engineer</h2>
+        <p class="about__desc">
+          Seeking opportunities to advance skills in data analytics, data engineering, ETL development, database administration, and process automation. 
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://github.com/Songiso" target="_blank">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/Songiso"
+            aria-label="github"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/songisocooperlyambai/"
+            aria-label="linkedin"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Tiktok Analyzer</h3>
+            <p class="project__description">
+              A simple pipeline to extract data from the Evergy API and ebill PDF that allows cost, usage, and solar production monitoring.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Pandas</li>
+              <li class="project__stack-item">MongoDB</li>
+              <li class="project__stack-item">Docker</li>
+            </ul>
+
+            <a
+              href="https://github.com/Songiso/Tiktok_Analytics_Aggregator"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://github.com/Songiso/Tiktok_Analytics_Aggregator"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>ISS Tracker</h3>
+            <p class="project__description">
+              Real-Time tracking and interactive visualization of the International Space Station (ISS) position using geospatial Data.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SQL</li>
+              <li class="project__stack-item">API</li>
+              <li class="project__stack-item">Plotly</li>
+              <li class="project__stack-item">MySQL<li class="project__stack-item"></li></li>
+            </ul>
+
+            <a
+              href="https://public.tableau.com/app/profile/eric.burmeister/viz/MilesToGo/Story"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Climate Data Analysis</h3>
+            <p class="project__description">
+              Analyze and visualize large datasets related to climate data to identify trends and anomalies.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Snowflake</li>
+              <li class="project__stack-item">Spark</li>
+              <li class="project__stack-item">Airflow</li>
+              <li class="project__stack-item">Azure</li>
+            </ul>
+
+            <a
+              href="https://github.com/Songiso"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+          </div>
+          <div class="project">
+            <h3>Enterprise Data Lake  implemention</h3>
+            <p class="project__description">
+              Designed and implemented a data lake that consolidates diverse data sources into a single repository for analytics, machine learning and reporting  across the organization.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Kafka</li>
+              <li class="project__stack-item">Spark</li>
+              <li class="project__stack-item">Airbyte</li>
+              <li class="project__stack-item">Big Query</li>
+            </ul>
+
+            <a
+              href="https://github.com/Songiso"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Spark</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">Azure</li>
+          <li class="skills__list-item btn btn--plain">BigQuery</li>
+          <li class="skills__list-item btn btn--plain">Docker</li>
+          <li class="skills__list-item btn btn--plain">Airflow</li>
+          <li class="skills__list-item btn btn--plain">Snowflake</li>
+          <li class="skills__list-item btn btn--plain">Kafka</li> 
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:songicooper@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <!-- Empty Footer for Spacing -->
+    <footer class="footer">
+      <p></p>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
